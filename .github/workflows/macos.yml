@@ -50,7 +50,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  CACHE_VER: 21
+  CACHE_VER: 23
   VERBOSE: no
 
 jobs:
@@ -268,4 +268,4 @@ jobs:
         uses: tamatebako/tebako/.github/actions/setup-tebako@main
         with:
           cache: off
-          xcode: 15.0.1
+          xcode: 16.4.0
